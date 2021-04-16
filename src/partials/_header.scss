@@ -1,0 +1,15 @@
+// header
+.hero{
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  height:80vh;
+  display:flex;
+  align-items: center;
+  .container{
+    width:$midContainer;
+    padding: $pd;
+    color:$secondaryColor;
+    h1{
+      font-size:$bigText;
+    }
+  }
+}
