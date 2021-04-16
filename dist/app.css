@@ -15,6 +15,7 @@ body {
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 22px;
 }
 
 .full-btn {
@@ -27,7 +28,8 @@ body {
 
 .hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
-  height: 80vh;
+  background-size: cover;
+  height: 700px;
   display: flex;
   align-items: center;
 }
@@ -40,11 +42,11 @@ body {
   height: 60px;
 }
 .hero .container h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin: 20px 0;
 }
 .hero .container h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin: 20px 0;
 }
 .hero .container a {
