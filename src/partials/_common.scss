@@ -5,3 +5,22 @@
   padding:0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+// button
+
+.btn{
+  padding:10px 20px;
+  display: inline-block;
+  color:$secondaryColor;
+  border-radius:25px;
+  text-decoration: none;
+  font-weight:bold;
+}
+.full-btn{
+  background-color: $mainColor;
+}
+.btn-empty{
+  border: 2px solid $secondaryColor;
+}

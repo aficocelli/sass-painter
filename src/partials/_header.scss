@@ -8,8 +8,19 @@
     width:$midContainer;
     padding: $pd;
     color:$secondaryColor;
+    img{
+      height:60px;
+    }
     h1{
       font-size:$bigText;
+      margin: $mg 0;
+    }
+    h2{
+      font-size: $midText;
+      margin: $mg 0;
+    }
+    a {
+      margin-right:20px;
     }
   }
 }
