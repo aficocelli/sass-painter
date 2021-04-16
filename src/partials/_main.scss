@@ -1,0 +1,41 @@
+// main
+#main-info{
+  .container{
+    width:$midContainer;
+    text-align: center;
+    margin: $mg auto;
+
+
+    h2{
+      font-size:$midText;
+      margin: $mg;
+    }
+    p{
+      line-height: $lh;
+      font-size:$smallText;
+    }
+  }
+}
+
+#features{
+  .box{
+    width:$bigContainer;
+    padding:$pd;
+    @include displayRules;
+    margin:0 auto;
+    &.box-reverse{
+      flex-direction:row-reverse;
+    }
+    .box-text{
+      padding:$pd;
+      h2{
+        font-size:$midText;
+      }
+      p{
+        font-size:$smallText;
+        line-height: $lh;
+      }
+    }
+  }
+}
+// /main

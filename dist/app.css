@@ -15,7 +15,7 @@ body {
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .full-btn {
@@ -50,9 +50,45 @@ body {
   margin: 20px 0;
 }
 .hero .container .box-text h2 {
-  font-size: 22px;
+  font-size: 25px;
   margin: 20px 0;
 }
 .hero .container .box-text a {
   margin-right: 20px;
+}
+
+#main-info .container {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+#main-info .container h2 {
+  font-size: 25px;
+  margin: 20px;
+}
+#main-info .container p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+#features .box {
+  width: 1200px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#features .box.box-reverse {
+  flex-direction: row-reverse;
+}
+#features .box .box-text {
+  padding: 50px;
+}
+#features .box .box-text h2 {
+  font-size: 25px;
+}
+#features .box .box-text p {
+  font-size: 18px;
+  line-height: 30px;
 }

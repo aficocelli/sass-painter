@@ -25,3 +25,11 @@ body{
 .btn-empty{
   border: 2px solid $secondaryColor;
 }
+
+// display
+
+@mixin displayRules {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
