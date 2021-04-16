@@ -34,21 +34,25 @@ body {
   align-items: center;
 }
 .hero .container {
-  width: 800px;
+  width: 1200px;
+  margin: 0 auto;
   padding: 50px;
   color: #fff;
 }
-.hero .container img {
+.hero .container .box-text {
+  width: 600px;
+}
+.hero .container .box-text img {
   height: 60px;
 }
-.hero .container h1 {
+.hero .container .box-text h1 {
   font-size: 45px;
   margin: 20px 0;
 }
-.hero .container h2 {
+.hero .container .box-text h2 {
   font-size: 22px;
   margin: 20px 0;
 }
-.hero .container a {
+.hero .container .box-text a {
   margin-right: 20px;
 }
