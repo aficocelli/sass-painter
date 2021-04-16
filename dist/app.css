@@ -88,10 +88,18 @@ body {
 }
 #features .box .box-text h2 {
   font-size: 25px;
+  margin: 20px 0;
 }
 #features .box .box-text p {
   font-size: 18px;
   line-height: 30px;
+}
+#features .box .box-text a {
+  text-decoration: none;
+  color: #0D66D0;
+  margin: 20px 0;
+  display: inline-block;
+  font-weight: bold;
 }
 #features .box .img-box {
   width: 50%;

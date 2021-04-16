@@ -31,10 +31,18 @@
       padding:$pd;
       h2{
         font-size:$midText;
+        margin:$mg 0;
       }
       p{
         font-size:$smallText;
         line-height: $lh;
+      }
+      a{
+        text-decoration: none;
+        color: $mainColor;
+        margin:$mg 0;
+        display: inline-block;
+        font-weight: bold;
       }
     }
     .img-box{
