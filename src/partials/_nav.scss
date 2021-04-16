@@ -1,0 +1,34 @@
+#main-menu{
+  display:flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+
+  .logo{
+    img{
+      height:50px;
+    }
+  }
+  .nav-bar{
+    @include displayRules;
+    list-style-type: none;
+    li{
+      padding: 10px 30px;
+      a{
+        text-decoration: none;
+        color:#000;
+      }
+
+    }
+  }
+  .login{
+    display:flex;
+    align-items: center;
+    & > a{
+      margin-right:10px;
+    }
+    a{
+      text-decoration: none;
+      color:#000;
+    }
+  }
+}
